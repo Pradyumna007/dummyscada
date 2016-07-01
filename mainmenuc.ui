@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dummy SCADA</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="font">
+       <font>
+        <family>Cantarell</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QMdiArea" name="mdiArea">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>781</width>
+         <height>211</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>151</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Bitstream Vera Serif</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Dam Control</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="dam">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>290</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Cantarell</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>DAM</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gate1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>290</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>GATE 1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gate2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>290</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>GATE 2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gate3">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>290</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>GATE 3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="damc">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>370</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>CLOSE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="g1c">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>370</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>CLOSE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="g2c">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>370</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>CLOSE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="g3c">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>370</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>CLOSE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="vol">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>410</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>VOLUME</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="lev">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>410</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>LEVEL</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="db">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>410</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>DATABASE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ser">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>410</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>CrossCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>SERIAL</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="st1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>330</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>STOP</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="std">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>330</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>STOP</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="st2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>330</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>STOP</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="st3">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>330</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>STOP</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close3">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>220</y>
+         <width>93</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>QUIT</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
