@@ -12,7 +12,7 @@ HMI: In this version, you can find only HMI where you can connect to arduino and
 In Network: You have network architecture - TCP Server and Client. Arduino is connected to the server and HMI is at client side. You can understand the network communication between HMI and arduino and you can learn to pentest SCADA network.
 *COMING SOON*
 
-###v3 -> 
+###v3.
 ModBus: Using real SCADA devices you can understand the data transfer between different platforms. TCP Synchronus ModBus communication using Python and you can learn to pentest the DummySCADA with Dummy Netowk, Dummy HMI. 
 *COMING SOON*
 
