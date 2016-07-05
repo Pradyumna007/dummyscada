@@ -5,15 +5,17 @@
 Welcome to DummySCADA. This project is created for the beginners who are interested in Pentesting SCADA Networks. You can download HMI(Human Machine Interface) from repository to control your arduino using serial communication. Every Action that you perform is stored in the database created. 
 
 ## Versions
-###v1 -> 
+###v1.
 HMI: In this version, you can find only HMI where you can connect to arduino and check the automation. You can build other networks for your use(RF). You can learn basic intraction using PySerial with arduino.
 
-###v2 -> 
+###v2. 
 In Network: You have network architecture - TCP Server and Client. Arduino is connected to the server and HMI is at client side. You can understand the network communication between HMI and arduino and you can learn to pentest SCADA network.
-`COMIN SOON`
+*COMING SOON*
 
 ###v3 -> 
 ModBus: Using real SCADA devices you can understand the data transfer between different platforms. TCP Synchronus ModBus communication using Python and you can learn to pentest the DummySCADA with Dummy Netowk, Dummy HMI. 
+*COMING SOON*
+
 
 *This helps SCADA pentesters to demonstrate scenarios and perform various pentesting methods without disturbing real SCADA network.* 
 
