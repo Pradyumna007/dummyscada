@@ -45,8 +45,12 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 
 `pip install pyserial` or https://pypi.python.org/pypi/pyserial/2.7 (Installing PySerial)
 
-*If you use Kali linux, you get arduino default. You have to install PyQt4.*
+`pip install python-handler-socket` (Installing Socket)
 
-*If you are using other OS, Install Python, PyQt4, Arduino, PySerial
+`pip install MySQL-python` (Installing MySQLdb)
+
+*If you use Kali linux, you get arduino default. You have to install PyQt4 and other libraries.*\n 
+
+*If you are using other OS, Install Python, PyQt4, Arduino, PySerial, MySQLdb, os, time, hashlib, sys*
 
 
