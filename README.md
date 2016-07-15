@@ -6,7 +6,7 @@ Welcome to DummySCADA. This project is created for the beginners who are interes
 
 ## Versions
 ###v1.
-HMI: In this version, you can find only HMI where you can connect to arduino and check the automation. You can build other networks for your use(RF). You can learn basic intraction using PySerial with arduino.
+HMI: In this version, you can find only HMI where you can connect to arduino and check the automation. You can build other networks according to your requirements(RF). You can learn basic intraction using PySerial with arduino.
 
 ###v2. 
 In Network: You have network architecture - TCP Server and Client. Arduino is connected to the server and HMI is at client side. You can understand the network communication between HMI and arduino and you can learn to pentest SCADA network.<br>
