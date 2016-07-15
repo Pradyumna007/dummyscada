@@ -9,11 +9,11 @@ Welcome to DummySCADA. This project is created for the beginners who are interes
 HMI: In this version, you can find only HMI where you can connect to arduino and check the automation. You can build other networks for your use(RF). You can learn basic intraction using PySerial with arduino.
 
 ###v2. 
-In Network: You have network architecture - TCP Server and Client. Arduino is connected to the server and HMI is at client side. You can understand the network communication between HMI and arduino and you can learn to pentest SCADA network.
+In Network: You have network architecture - TCP Server and Client. Arduino is connected to the server and HMI is at client side. You can understand the network communication between HMI and arduino and you can learn to pentest SCADA network.<br>
 *COMING SOON*
 
 ###v3.
-ModBus: Using real SCADA devices you can understand the data transfer between different platforms. TCP Synchronus ModBus communication using Python and you can learn to pentest the DummySCADA with Dummy Netowk, Dummy HMI. 
+ModBus: Using real SCADA devices you can understand the data transfer between different platforms. TCP Synchronus ModBus communication using Python and you can learn to pentest the DummySCADA with Dummy Netowk, Dummy HMI. <br>
 *COMING SOON*
 
 
@@ -59,19 +59,19 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 
 ###Connections
 1. Check out connections.jpg and connect the devices according. 
-2. Arduino
-    port 25    L293D pin 1
-    port 26    L293D pin 2
-    port 27    L293D pin 7
-    port 11    HC-SR04 Trig
-    port 12    HC-SR04 Echo
+2. Arduino<br>
+    port 25    L293D pin 1<br>
+    port 26    L293D pin 2<br>
+    port 27    L293D pin 7<br>
+    port 11    HC-SR04 Trig<br>
+    port 12    HC-SR04 Echo<br><br>
 
-    L293D 4, 5, 12, 13   9V Battery GND(-)
-    L293D 3    DC Motor Yellow 
-    L293D 6    DC Motor Green
-    L293D 8    9V Battery Power(+)
+    L293D 4, 5, 12, 13   9V Battery GND(-)<br>
+    L293D 3    DC Motor Yellow <br>
+    L293D 6    DC Motor Green<br>
+    L293D 8    9V Battery Power(+)<br><br>
     
-    HC-SR04 VCC    Ard 5V
-    HC-SR04 GND    Ard GND
+    HC-SR04 VCC    Ard 5V<br>
+    HC-SR04 GND    Ard GND<br>
     
     
