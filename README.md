@@ -74,4 +74,10 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
     HC-SR04 VCC    Ard 5V<br>
     HC-SR04 GND    Ard GND<br>
     
-    
+* You can add 2 more motors like this continuing from pin 28 with same L293D PIN structure.*
+
+###Interface
+1. Cloning GIT
+`$ git clone https://github.com/Pradyumna007/dummyscada.git`
+2. Unzip `dummyscada-master.zip`
+3. 
