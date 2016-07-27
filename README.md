@@ -76,8 +76,26 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
     
 * You can add 2 more motors like this continuing from pin 28 with same L293D PIN structure.*
 
+###Database
+
+
 ###Interface
 1. Cloning GIT
 `$ git clone https://github.com/Pradyumna007/dummyscada.git`
+
 2. Unzip `dummyscada-master.zip`
-3. 
+
+3. Upload `test.ino` into Arduino board.<br> 
+*This helps you test interface between Arduino and Python HMI.*<br>
+
+4. Run dummyscada.py 
+`python dummyscada.py`
+
+`Click Gate 1 to run the Motor`
+`Click Gate 1 Stop to Turn Off the Motor`
+`Click Gate 1 Close to run the Motor in anti-clockwise direction` 
+
+5. Upload `dummyscada.ino` into Arduino board.<br>
+*If test.ino in successful upload dummyscada.ino into board.*
+
+
