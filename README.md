@@ -77,6 +77,27 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 *You can add 2 more motors like this continuing from pin 28 with same L293D PIN structure.*
 
 ###Database
+`$ service mysql start`
+
+`$ mysql`
+
+`mysql> CREATE USER 'Admin' IDENTIFIED BY 'Admin@143';`<br>
+
+*Once you restart your system, you need to login as database user in order to avoid errors*<br>
+
+`$ mysql -u admin -p`<br>
+
+*Enter Admin@143 as password*
+
+`mysql> CREATE DATABASE scada_client;`<br>
+
+`mysql> USE scada_client;`<br>
+
+`mysql> SHOW TABLES;`<br>
+
+
+
+
 
 
 ###Interface
@@ -99,3 +120,4 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 *If test.ino is successful upload dummyscada.ino into board.*<br>
 
 
+#Under Construction
