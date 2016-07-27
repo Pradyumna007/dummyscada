@@ -27,7 +27,7 @@ void loop()
       digitalWrite(13, LOW);
       delay(500);
       digitalWrite(13, HIGH);
-      Serial.write("GATE 2 CLOSED");
+      Serial.write("GATE 1 CLOSED");
     }
   }
 }
