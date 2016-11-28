@@ -137,4 +137,14 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 7. Check all the buttons that are available.<br>
 `Click on Buttons to get the appropriate Output`<br><br>
 
-*Each Motor represents Each Gate. Gate1 for the first motor, Gate2 for second Motor, Gate3 for Third motor and DAM for all 3 gates at a time. If you have only 1 motor and try to execute it by clicking on Gate2, IT MIGHT THROW SOME ERRORS.* 
+*Each Motor represents Each Gate. Gate1 for the first motor, Gate2 for second Motor, Gate3 for Third motor and DAM for all 3 gates at a time. If you have only 1 motor and try to execute it by clicking on Gate2, IT MIGHT THROW SOME ERRORS.* <br><br>
+
+##Authors 
+* [Pradyumna Cheerala](https://github.com/Pradyumna007) has completely designed and mainteined the Project. 
+
+##License
+This project is licensed under the GNU License - see the [LICENSE](https://github.com/Pradyumna007/dummyscada/blob/master/LICENSE) file for details.
+
+##Acknowledgment
+* This project is started when I attended class of [Justin Searle](https://www.linkedin.com/in/meeas) at Nullcon. I would like to thank Justin for his support in various ways.  
+
