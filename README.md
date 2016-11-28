@@ -93,8 +93,17 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 
 `mysql> USE scada_client;`<br>
 
-`mysql> SHOW TABLES;`<br>
+`mysql> CREATE TABLE DAM (da DATE, user VARCHAR(20), status VARCHAR(10), ti TIME);`<br>
 
+`mysql> CREATE TABLE Gate1 (da DATE, user VARCHAR(20), status VARCHAR(10), ti TIME);`<br>
+
+`mysql> CREATE TABLE Gate2 (da DATE, user VARCHAR(20), status VARCHAR(10), ti TIME);`<br>
+
+`mysql> CREATE TABLE Gate3 (da DATE, user VARCHAR(20), status VARCHAR(10), ti TIME);`<br>
+
+`mysql> CREATE TABLE level (da DATE, user VARCHAR(20), status VARCHAR(10), ti TIME, volume varchar(50), depth varchar(50));`<br>
+
+`mysql> SHOW TABLES;`<br>
 
 
 
@@ -119,5 +128,8 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 5. Upload `dummyscada.ino` into Arduino board.<br>
 *If test.ino is successful upload dummyscada.ino into board.*<br>
 
+6. Run dummyscada.py <br>
+`python dummyscada.py`<br><br>
 
-#Under Construction
+7. Check all the buttons that are available. 
+`Click on Buttons to get the Output`
