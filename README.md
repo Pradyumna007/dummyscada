@@ -4,6 +4,8 @@
 
 Welcome to DummySCADA. This project is created for the beginners who are interested in Pentesting SCADA Networks. You can download HMI(Human Machine Interface) from repository to control your arduino using serial communication. Every Action that you perform is stored in the database created. 
 
+![Alt text](C:\Users\cheeralv\Downloads\IMG-20160501-WA0008.jpg?raw=true "Optional Title")
+
 ## Versions
 ###v1.
 HMI: In this version, you can find only HMI where you can connect to arduino and check the automation. You can build other networks according to your requirements(RF). You can learn basic intraction using PySerial with arduino.
