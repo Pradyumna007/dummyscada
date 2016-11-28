@@ -126,12 +126,12 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
     `Click Gate 1 Close to run the Motor in anti-clockwise direction` <br><br>
 
 5. Upload `dummyscada.ino` into Arduino board.<br>
-*If test.ino is successful upload dummyscada.ino into board.*<br>
+*If test.ino is successful upload dummyscada.ino into board.*<br><br>
 
 6. Run dummyscada.py <br>
 `python dummyscada.py`<br><br>
 
 7. Check all the buttons that are available.<br>
-`Click on Buttons to get the Output`<br><br>
+`Click on Buttons to get the appropriate Output`<br><br>
 
 *Each Motor represents Each Gate. Gate1 for the first motor, Gate2 for second Motor, Gate3 for Third motor and DAM for all 3 gates at a time. If you have only 1 motor and try to execute it by clicking on Gate2, IT MIGHT THROW SOME ERRORS.* 
