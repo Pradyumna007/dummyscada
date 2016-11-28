@@ -140,7 +140,7 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 *Each Motor represents Each Gate. Gate1 for the first motor, Gate2 for second Motor, Gate3 for Third motor and DAM for all 3 gates at a time. If you have only 1 motor and try to execute it by clicking on Gate2, IT MIGHT THROW SOME ERRORS.* <br><br>
 
 ##Authors 
-* [Pradyumna Cheerala](https://github.com/Pradyumna007) has completely designed and mainteined the Project. 
+* [Pradyumna Cheerala](https://github.com/Pradyumna007) has completely designed and maintained the Project. 
 
 ##License
 This project is licensed under the GNU License - see the [LICENSE](https://github.com/Pradyumna007/dummyscada/blob/master/LICENSE) file for details.
