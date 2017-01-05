@@ -148,5 +148,5 @@ ModBus: Using real SCADA devices you can understand the data transfer between di
 This project is licensed under the GNU License - see the [LICENSE](https://github.com/Pradyumna007/dummyscada/blob/master/LICENSE) file for details.
 
 ##Acknowledgment
-* This innovative project is initiated as a Capstone work at B.Tech(college) and inspired from class of [Justin Searle](https://www.linkedin.com/in/meeas). I would like to thank Justin for his support.  
+* I am greatful to [Justin Searle](https://www.linkedin.com/in/meeas) who provided insight and expertise that greatly assisted the research.
 
