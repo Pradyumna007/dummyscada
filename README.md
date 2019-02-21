@@ -1,4 +1,4 @@
-# DummySCADA    **New updated will be pushed soon.
+# DummySCADA    **New update will be pushed soon.
 
 ## Introduction
 
